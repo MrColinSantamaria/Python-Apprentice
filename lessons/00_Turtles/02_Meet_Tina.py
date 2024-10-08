@@ -12,7 +12,7 @@ window.
 
 import turtle                           # Tell Python we want to work with the turtle
 tina = turtle.Turtle()
-turtle.setup(width=600, height=600)     # Set the size of the window
+turtle.setup(width=600, height=600,startx=0,starty=0)     # Set the size of the window
 tina.forward(50)
 tina = turtle.Turtle()                  # Create a turtle named tina
 
@@ -46,7 +46,7 @@ tina.goto(-50,0)
 tina.pendown()
 tina.color('red')                       # Set the color of tina to red
 tina.begin_fill()
-tina.circle(101, steps=10000)
+tina.circle(101, steps = 10,extent=140)
 tina.end_fill()
 bob = turtle.Turtle()
 turtle.exitonclick()                    # Close the window when we click on it
