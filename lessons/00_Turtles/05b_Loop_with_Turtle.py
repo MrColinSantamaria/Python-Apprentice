@@ -20,6 +20,7 @@ for i in range(500):
     tina.left(90)
     print('Loop Iteration', i)
 tina.right(45)
+tina.penup()
 tina.forward(40)
 tina.speed(5)
 tina.write(".          That took a long time!")
