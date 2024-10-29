@@ -21,7 +21,18 @@ for color in colors:                            # loop through the colors
     tina.pencolor(color)
     tina.forward(50)
     tina.left(60)
-tina.forward
+tina.forward(50)
+tina.left(60)
+tina.forward(50)
+tina.penup()
+tina.forward(30)
+tina.write('                    "that is complacated for me')
+
+
+
+
+
+
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
 ... # Your code here

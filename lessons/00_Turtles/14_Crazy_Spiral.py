@@ -5,9 +5,11 @@ Make your own crazy spiral with a pattern like
 in 14_FLaming_Ninja_Star.py, but use what you've learned about loops
 """
 
-... # Copy code to make a turtle and set up the window
+ # Copy code to make a turtle and set up the window
 
-t = ... # Create a turtle named t
+import turtle
+
+t = turtle.Turtle() # Create a turtle named t
 
 
 
@@ -24,8 +26,8 @@ def make_a_shape(t):
 # The second ... in the for loop should be the number of shapes you want to make, 
 # for example 100, or it could use islice(), cycle(), or a list of numbers.
 
-num_shapes = ...
+num_shapes = 6
 
-for i in range(...):
+for i in range(6):
     make_a_shape(t)
     t.right(360/num_shapes)

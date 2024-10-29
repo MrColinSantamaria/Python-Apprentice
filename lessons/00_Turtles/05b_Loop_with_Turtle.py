@@ -22,7 +22,7 @@ for i in range(500):
 tina.right(45)
 tina.penup()
 tina.forward(40)
-tina.speed(5)
+tina.speed(1)
 tina.write(".          That took a long time!")
 
 
