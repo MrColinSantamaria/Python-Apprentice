@@ -33,7 +33,7 @@ t.width(2)
 
 t.speed(0) 
 
-for i in range(25):
+for i in range(1000):
     t.pencolor(getRandomColor())
 
     t.fillcolor(getRandomColor()) 

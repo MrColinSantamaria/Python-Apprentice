@@ -25,7 +25,7 @@ myTurtle.speed(0)
 myTurtle.width(1)
 
 sides = 5
-angle = 360 / sides
+angle = 500 / sides
 
 for i in range(360):
     if i == 100:
@@ -35,6 +35,19 @@ for i in range(360):
     myTurtle.pencolor(getNextColor(i))
     myTurtle.forward(i)
     myTurtle.right(angle + 1)
+
+for i in range(360):
+    myTurtle.teleport(0)
+    if i == 100:
+        myTurtle.width(2)
+    if i == 200:
+        myTurtle.width(3)
+    myTurtle.pencolor(getNextColor(i))
+    myTurtle.forward(i)
+    myTurtle.right(angle + 1)
+
+    print('Loop Iteration', i)
+
 
 myTurtle.hideturtle()
 
