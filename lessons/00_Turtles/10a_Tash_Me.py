@@ -1,13 +1,22 @@
-""" Tash Me
+import turtle
 
-Write a program that:
-1) Loads an emoji image as the background
-2) Make the turtle shape a moustach
-3) Move the moustache to the right spont on the emoji
+bob=turtle.Turtle()
+bob.forward(50)
+bob.left(90)
 
-Hint: See 08a_More Turtle Programs, section 'Change the Background Image' and
-'Change the Turtle Shape'
-"""
+import turtle
 
-... # Your code here
+a=turtle.Turtle()
 
+a.left(90)
+a.penup()
+bob.penup()
+a.forward(70)
+bob.forward(70)
+a.right(90)
+bob.left(90)
+
+
+
+
+turtle.exitonclick()
