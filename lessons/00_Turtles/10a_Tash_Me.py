@@ -15,7 +15,20 @@ a.forward(70)
 bob.forward(70)
 a.right(90)
 bob.left(90)
+bob.write("           I am German, and my name is bob")
+a.left(90)
+a.forward(100)
+bob.right(90)
+bob.forward(50)
+bob.write("            hey come back")
+bob.forward(50)
+a.right(90)
+bob.color("white")
+a.write("            he is stupid")
+import turtle
 
+lebronjamesfutureself=turtle.Turtle()
+lebronjamesfutureself.left(180)
 
 
 
