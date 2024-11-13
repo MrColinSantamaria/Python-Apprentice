@@ -24,12 +24,13 @@ bob.write("            hey come back")
 bob.forward(50)
 a.right(90)
 bob.color("white")
-a.write("            he is stupid")
+a.write("            he is weird")
 import turtle
 
 lebronjamesfutureself=turtle.Turtle()
 lebronjamesfutureself.left(180)
-
+lebronjamesfutureself.penup()
+lebronjamesfutureself.forward(200)
 
 
 turtle.exitonclick()
